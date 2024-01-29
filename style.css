@@ -1,0 +1,337 @@
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0%;
+
+}
+
+.top-bar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(201, 201, 195);
+    border-bottom: 1px solid rgb(201, 201, 195);
+
+}
+
+.top-items{
+    font-size: 15px;
+    text-align: center;
+}
+
+#logo{
+    margin-left: 120px;
+    width: 150px;
+    height: 50px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#nav-center{
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-center a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;  
+}
+
+#nav-center a:hover{
+    color: rgb(0,88,231);
+    background: rgb(232, 230, 230);
+
+}
+
+#login{
+    margin-right: 120px;
+}
+
+.login-button{
+    padding-left: 10px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0,88,231,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-color:  rgba(0,88,231,0.7);
+    border-radius: 10px;
+}
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0%;
+
+}
+
+.top-bar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(201, 201, 195);
+    border-bottom: 1px solid rgb(201, 201, 195);
+
+}
+
+.top-items{
+    font-size: 15px;
+    text-align: center;
+}
+
+#logo{
+    margin-left: 120px;
+    width: 150px;
+    height: 50px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#nav-center{
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-center a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;  
+}
+
+#nav-center a:hover{
+    color: rgb(0,88,231);
+    background: rgb(232, 230, 230);
+
+}
+
+#login{
+    margin-right: 120px;
+}
+
+.login-button{
+    padding-left: 10px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0,88,231,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-color:  rgba(0,88,231,0.7);
+    border-radius: 10px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+.item-2{
+    height: 700px;
+    display: flex;
+    background: url("https://bharatpe.com/wp-content/themes/betheme/images/bg-home-banner-lg.jpg");
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.item-2-content{
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+
+}
+
+#box1{
+    margin-left: 300px;
+}
+
+#box2{
+    background: url("https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/home-desktop-banner.jpg");
+    margin-right: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* line-height: 450px; */
+    
+}
+
+.heading{
+    font-size: 40px;
+    margin: 70px 0 30px 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.add-blue{
+    color: rgb(0,88,231);
+}
+
+.content-after-heading{
+    margin:0 30px 30px 50px ;
+    font-family: 'Montagu Slab', serif;
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+}
+
+.Download-app{
+    margin:0 0 10px 50px;
+    font-weight: 900;
+    color: rgb(129, 129, 129);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.download{
+    display: flex;
+    margin-left: 30px;
+}
+
+.store{
+    display: flex;
+    margin: 8px;
+    width: 180px;
+    height: 50px;
+    border:none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+.icon{
+    margin: 10px;
+}
+
+.text{
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+    
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.item-3{
+    background: #1c1c1c;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-3-heading{
+    color: white;
+    margin-bottom: 100px;
+    /* justify-content: center;
+    align-items: center; */
+
+    font-family: 'Montserrat', serif;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    
+}
+
+.item-3-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-3-box{
+    /* background: red; */
+    /* width: 200px; */
+    height: 160px;
+    padding: 80px;
+    justify-content: space-between;
+
+    
+}
+
+.item-3-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.item-4{
+    text-align: center;
+    margin: 50px;
+}
+.item-4-heading1{
+    font-family: 'Montserrat', serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.item-4-heading2{
+    font-family:  'Montagu Slab', serif;
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.item-4-boxes{
+    display: flex;
+}
+
+.item-4-box{
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 15px;
+    float: left;
+    margin-bottom: 100px;
+    margin-right: 60px;
+}
+
+.item-4-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.item-4-content{
+    margin-top: 120px;
+}
+
+.item-4-content h2{
+    font-family: 'Montserrat', serif;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.item-4-content p{
+    text-align: left;
+    color: black ;
+}
+
+
+
+
+
+
+
+
